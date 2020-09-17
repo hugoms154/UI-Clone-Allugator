@@ -155,25 +155,26 @@ export const ContentHeader = styled.div`
           height: 4rem;
           border: 0.1rem solid rgba(255, 255, 255, 0.2);
           &:focus-within {
-      border: 0.2rem solid rgb(16, 187, 119);
-          svg {
-            color: rgba(255, 255, 255, 0.7);
+            border: 0.2rem solid rgb(16, 187, 119);
+            svg {
+              color: rgba(255, 255, 255, 0.7);
+            }
           }
         }
-      }
 
-      .search {
-        width: 24rem;
-        height: 3.6rem;
-        margin-top: 0;
-        transition: 0.3s width;
+        .search {
+          width: 24rem;
+          height: 3.6rem;
+          margin-top: 0;
+          transition: 0.3s width;
 
-        &:focus-within {
-          width: 30rem;
-        }
+          &:focus-within {
+            width: 30rem;
+          }
 
-        input {
-          font-size: 1.6rem;
+          input {
+            font-size: 1.6rem;
+          }
         }
       }
     }
